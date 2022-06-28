@@ -1,0 +1,15 @@
+{
+  "name": "react-native-simplest-alert",
+  "version": "1.0.1",
+  "description": "just call a function to show your alert. no need for jsx. \nworks on ios, android, and web. supports multi alerts at the same time.",
+  "main": "index.js",
+  "keywords": [
+    "react-native",
+    "alert",
+    "popup",
+    "pop-up"
+  ],
+  "author": "Nitsan BenHanoch",
+  "license": "MIT",
+  "repository": "github:nitasn/react-native-simplest-alert"
+}
