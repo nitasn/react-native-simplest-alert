@@ -9,7 +9,7 @@ showAlert({
 });
 ```
 
-![Screen Capture Gif](https://raw.githubusercontent.com/nitasn/nitasn.github.io/main/assests/show-case-small.gif)
+![Screen Capture Gif](https://raw.githubusercontent.com/nitasn/react-native-simplest-alert/master/assets/show-case-small.gif)
 
 No Need for JSX or "isAlertShown" props.
 
