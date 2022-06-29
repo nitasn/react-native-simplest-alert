@@ -1,6 +1,6 @@
 {
   "name": "react-native-simplest-alert",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Just call a function to show your alert. No need for jsx. Works on ios, android, and the web. Supports multi alerts at the same time.",
   "main": "index.js",
   "keywords": [
