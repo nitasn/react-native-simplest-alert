@@ -4,12 +4,12 @@ Display an alert with a simple function call:
 
 ```
 showAlert({
-  header: 'Big Notice',
-  body: 'You can now dismiss this message',
+  header: 'Some Title',
+  body: 'This is the body of the message.',
 });
 ```
 
-![Screen Capture Gif](https://raw.githubusercontent.com/nitasn/react-native-simplest-alert/master/assets/smaller.gif)
+![Screen Capture Gif](https://raw.githubusercontent.com/nitasn/react-native-simplest-alert/master/assets/show-case-small.gif)
 
 No Need for JSX or "isAlertShown" props.
 
