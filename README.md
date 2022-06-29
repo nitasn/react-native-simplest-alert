@@ -1,6 +1,7 @@
 # React Native Simplest Alert
 
 Display an alert with a simple function call:
+
 ```
 showAlert({
   header: 'Big Notice',
@@ -8,21 +9,25 @@ showAlert({
 });
 ```
 
-No need for extra JSX or "isAlertShown" props.
+![Screen Capture Gif](https://raw.githubusercontent.com/nitasn/react-native-simplest-alert/master/assets/show-case.gif)
 
+No Need for JSX or "isAlertShown" props.
 
-Optionally, you can pass an `onClick`:
+---
+ 
+Optionally, you can pass an `onClose`:
 ```
-
 showAlert({
   header: 'Posted!',
   body: 'Your post was posted. Click OK to proceed',
-  onClick: () => navigation.navigate("SomePage"),
+  onClose: () => navigation.navigate("SomePage"),
 });
-
 ```
 
-To use, wrap your app inside an `<AlertProvider>` tag:
+## How To Use
+
+Wrap your app inside an `<AlertProvider>` tag:
+
 ```
 import { AlertProvider } from 'react-native-simplest-alert';
 
@@ -34,12 +39,12 @@ export default function App() {
   );
 }
 ```
-
+  
 Anywhere in your application:
 ```
 import { showAlert } from 'react-native-simplest-alert';
-
-function onPanic() { 
+  
+function onPanic() {
   showAlert({
     header: 'Troll! In the Dungeon!',
     body: 'Thought you ought to know',
